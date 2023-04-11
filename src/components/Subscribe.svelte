@@ -1,4 +1,4 @@
-<div class="flex justify-between mb-32">
+<div class="flex justify-between mb-32 md:flex-row 2xs:flex-col">
   <div id="left-side" class="flex flex-col">
     <h2 class="text-3xl font-semibold">Ready to grow your business?</h2>
     <p class="text-xl text-black/60 font-semibold">

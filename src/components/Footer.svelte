@@ -1,11 +1,11 @@
-<div id="footer" class="flex gap-40">
+<div id="footer" class="flex gap-40 md:flex-row 2xs:flex-col">
   <div id="left-side" class="flex flex-col">
     <h3 class="text-2xl font-semibold mb-6" id="not-this-one">Untitled Blog</h3>
     <p class="text-lg font-semibold">
       Design amazing digital experiences that create more happy in the world.
     </p>
   </div>
-  <div id="right-side" class="grid grid-cols-5 w-full">
+  <div id="right-side" class="grid md:grid-cols-5 w-full 2xs:grid-cols-1">
     <div id="product">
       <h3 class="mb-4 font-semibold">Product</h3>
       <ul class="text-lg gap-2 font-semibold flex flex-col">
@@ -63,7 +63,9 @@
     </div>
   </div>
 </div>
-<div class="flex justify-between items-center mt-20 font-semibold mb-10">
+<div
+  class="flex justify-between md:items-center mt-20 font-semibold mb-10 md:flex-row 2xs:flex-col"
+>
   <p>2077 Untitled. All rights reserved.</p>
   <p>Social Links</p>
 </div>

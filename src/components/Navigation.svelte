@@ -1,4 +1,6 @@
-<nav class="md:w-full md:flex md:items-center md:justify-between py-6">
+<nav
+  class="md:w-full md:flex md:items-center md:justify-between py-6 2xs:hidden"
+>
   <div id="left-side" class="flex gap-12">
     <div id="logo">UI Blog</div>
     <div id="menu">
