@@ -1,4 +1,4 @@
-<div class="bg-blue-950 text-white font-bold mb-20">
+<div class="bg-blue-950 text-white font-bold mb-20 w-screen -translate-x-20">
   <ul
     class="flex justify-between items-center py-2 text-lg whitespace-nowrap gap-2"
   >

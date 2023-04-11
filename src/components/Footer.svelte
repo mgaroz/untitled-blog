@@ -1,6 +1,6 @@
 <div id="footer" class="flex gap-40">
   <div id="left-side" class="flex flex-col">
-    <h3 class="text-2xl font-semibold mb-6">Untitled Blog</h3>
+    <h3 class="text-2xl font-semibold mb-6" id="not-this-one">Untitled Blog</h3>
     <p class="text-lg font-semibold">
       Design amazing digital experiences that create more happy in the world.
     </p>
@@ -67,3 +67,14 @@
   <p>2077 Untitled. All rights reserved.</p>
   <p>Social Links</p>
 </div>
+
+<style>
+  ul > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  h3:not(#not-this-one) {
+    color: rgba(0, 0, 0, 0.7);
+  }
+</style>
