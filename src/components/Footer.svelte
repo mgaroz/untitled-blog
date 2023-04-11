@@ -1,14 +1,14 @@
-<div id="footer" class="flex gap-8">
+<div id="footer" class="flex gap-40">
   <div id="left-side" class="flex flex-col">
-    <h2>Untitled Blog</h2>
-    <p>
+    <h3 class="text-2xl font-semibold mb-6">Untitled Blog</h3>
+    <p class="text-lg font-semibold">
       Design amazing digital experiences that create more happy in the world.
     </p>
   </div>
   <div id="right-side" class="grid grid-cols-5 w-full">
     <div id="product">
-      <h3>Product</h3>
-      <ul>
+      <h3 class="mb-4 font-semibold">Product</h3>
+      <ul class="text-lg gap-2 font-semibold flex flex-col">
         <li>Overview</li>
         <li>Features</li>
         <li>Solutions</li>
@@ -18,8 +18,8 @@
       </ul>
     </div>
     <div id="company">
-      <h3>Company</h3>
-      <ul>
+      <h3 class="mb-4 font-semibold">Company</h3>
+      <ul class="text-lg gap-2 font-semibold flex flex-col">
         <li>About Us</li>
         <li>Careers</li>
         <li>Press</li>
@@ -29,8 +29,8 @@
       </ul>
     </div>
     <div id="resources">
-      <h3>Resources</h3>
-      <ul>
+      <h3 class="mb-4 font-semibold">Resources</h3>
+      <ul class="text-lg gap-2 font-semibold flex flex-col">
         <li>Blog</li>
         <li>Newsletter</li>
         <li>Events</li>
@@ -40,8 +40,8 @@
       </ul>
     </div>
     <div id="social">
-      <h3>Social</h3>
-      <ul>
+      <h3 class="mb-4 font-semibold">Social</h3>
+      <ul class="text-lg gap-2 font-semibold flex flex-col">
         <li>Twitter</li>
         <li>LinkedIn</li>
         <li>Facebook</li>
@@ -51,8 +51,8 @@
       </ul>
     </div>
     <div id="legal">
-      <h3>Legal</h3>
-      <ul>
+      <h3 class="mb-4 font-semibold">Legal</h3>
+      <ul class="text-lg gap-2 font-semibold flex flex-col">
         <li>Terms</li>
         <li>Privacy</li>
         <li>Cookies</li>
@@ -62,4 +62,8 @@
       </ul>
     </div>
   </div>
+</div>
+<div class="flex justify-between items-center mt-20 font-semibold mb-10">
+  <p>2077 Untitled. All rights reserved.</p>
+  <p>Social Links</p>
 </div>
