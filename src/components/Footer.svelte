@@ -1,4 +1,4 @@
-<div id="footer" class="flex gap-40 md:flex-row 2xs:flex-col">
+<div id="footer" class="flex 2xs:gap-10 md:gap-40 md:flex-row 2xs:flex-col">
   <div id="left-side" class="flex flex-col">
     <h3 class="text-2xl font-semibold mb-6" id="not-this-one">Untitled Blog</h3>
     <p class="text-lg font-semibold">
@@ -6,7 +6,7 @@
     </p>
   </div>
   <div id="right-side" class="grid md:grid-cols-5 w-full 2xs:grid-cols-1">
-    <div id="product">
+    <div id="product" class="2xs:mb-8 md:mb-0">
       <h3 class="mb-4 font-semibold">Product</h3>
       <ul class="text-lg gap-2 font-semibold flex flex-col">
         <li>Overview</li>
@@ -17,7 +17,7 @@
         <li>Releases</li>
       </ul>
     </div>
-    <div id="company">
+    <div id="company" class="2xs:mb-8 md:mb-0">
       <h3 class="mb-4 font-semibold">Company</h3>
       <ul class="text-lg gap-2 font-semibold flex flex-col">
         <li>About Us</li>
@@ -28,7 +28,7 @@
         <li>Contact</li>
       </ul>
     </div>
-    <div id="resources">
+    <div id="resources" class="2xs:mb-8 md:mb-0">
       <h3 class="mb-4 font-semibold">Resources</h3>
       <ul class="text-lg gap-2 font-semibold flex flex-col">
         <li>Blog</li>
@@ -39,7 +39,7 @@
         <li>Support</li>
       </ul>
     </div>
-    <div id="social">
+    <div id="social" class="2xs:mb-8 md:mb-0">
       <h3 class="mb-4 font-semibold">Social</h3>
       <ul class="text-lg gap-2 font-semibold flex flex-col">
         <li>Twitter</li>
@@ -50,7 +50,7 @@
         <li>Dribbble</li>
       </ul>
     </div>
-    <div id="legal">
+    <div id="legal" class="2xs:mb-8 md:mb-0">
       <h3 class="mb-4 font-semibold">Legal</h3>
       <ul class="text-lg gap-2 font-semibold flex flex-col">
         <li>Terms</li>

@@ -3,7 +3,7 @@
 </script>
 
 <div id="cards">
-  <div id="cards-grid" class="grid grid-cols-2 gap-10 mb-14">
+  <div id="cards-grid" class="grid md:grid-cols-2 gap-10 mb-14 2xs:grid-cols-1">
     {#each response as { cover_image, url, title, tag_list, description, user }}
       <article class="flex flex-col">
         <div class="relative">
