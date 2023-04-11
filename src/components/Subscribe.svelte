@@ -6,7 +6,14 @@
     </p>
   </div>
   <div id="right-side">
-    <input type="email" placeholder="Enter your email" />
-    <button>Subscribe</button>
+    <input
+      type="email"
+      placeholder="Enter your email"
+      class="rounded-full py-3 px-4 border-r-0 border border-gray-400 rounded-e-none w-[60%] focus:outline-transparent focus:ring-transparent focus:border-transparent"
+    />
+    <button
+      class="bg-blue-950 text-white rounded-full py-3 px-8 -translate-x-8 border border-gray-400 border-l-0"
+      >Subscribe</button
+    >
   </div>
 </div>

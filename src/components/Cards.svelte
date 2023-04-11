@@ -8,7 +8,9 @@
       <article class="flex flex-col">
         <div class="relative">
           <img
-            src={cover_image}
+            src={cover_image
+              ? cover_image
+              : "https://picsum.photos/seed/picsum/588/320"}
             alt={tag_list[0]}
             width="588"
             height="320"
