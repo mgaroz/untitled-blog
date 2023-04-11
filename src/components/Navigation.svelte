@@ -2,7 +2,7 @@
   <div id="left-side" class="flex gap-12">
     <div id="logo">UI Blog</div>
     <div id="menu">
-      <ul class="list-none flex gap-8">
+      <ul class="list-none flex gap-8 font-semibold">
         <li>Home</li>
         <li>Products</li>
         <li>Resources</li>
@@ -10,8 +10,10 @@
       </ul>
     </div>
   </div>
-  <div id="right-side" class="flex gap-8">
-    <button>Login</button>
-    <button>Sign Up</button>
+  <div id="right-side" class="flex gap-8 font-semibold">
+    <button>Log In</button>
+    <button class="rounded-full bg-black text-white py-3 px-6"
+      ><span class="p-0 m-0">Sign Up</span></button
+    >
   </div>
 </nav>

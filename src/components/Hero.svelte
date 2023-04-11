@@ -1,7 +1,7 @@
 <div id="hero" class="flex justify-between min-h-[40vh] items-center">
   <div id="left-side">
     <h1 class="text-6xl font-semibold">Untitled Blog</h1>
-    <div id="form" class="flex mt-4 w-[400px]">
+    <div id="form" class="flex mt-12 w-[400px]">
       <form
         action="#"
         class="w-full focus:outline-transparent focus:ring-transparent focus:border-transparent"
@@ -19,8 +19,8 @@
     </div>
   </div>
   <div id="right-side">
-    <p>
-      New product features, the latest in technology, solutions and updates.
+    <p class="text-xl text-black/60 font-semibold">
+      New product features, the latest in <br /> technology, solutions and updates.
     </p>
   </div>
 </div>
