@@ -1,0 +1,47 @@
+---
+import Navigation from "../components/Navigation.svelte";
+import Hero from "../components/Hero.svelte";
+import Posts from "../components/Posts.svelte";
+import Cards from "../components/Cards.svelte";
+import Ribbon from "../components/Ribbon.svelte";
+import Subscribe from "../components/Subscribe.svelte";
+import Footer from "../components/Footer.svelte";
+
+const response = await fetch(
+  "https://dev.to/api/articles/latest?per_page=8?state=rising"
+);
+const data = await response.json();
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body>
+    <header class="md:px-20">
+      <Navigation />
+    </header>
+    <main class="md:px-20">
+      <Hero />
+      <section id="posts">
+        <Posts />
+      </section>
+      <section id="cards">
+        <Cards response={data} />
+      </section>
+      <section id="ribbon">
+        <Ribbon />
+      </section>
+      <section id="subscribe">
+        <Subscribe />
+      </section>
+    </main>
+    <footer class="md:px-20">
+      <Footer />
+    </footer>
+  </body>
+</html>
