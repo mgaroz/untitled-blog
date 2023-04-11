@@ -8,7 +8,7 @@ import Subscribe from "../components/Subscribe.svelte";
 import Footer from "../components/Footer.svelte";
 
 const response = await fetch(
-  "https://dev.to/api/articles/latest?per_page=8?state=rising"
+  "https://dev.to/api/articles/latest?per_page=8?state=all?tag=javascript?top=2"
 );
 const data = await response.json();
 ---

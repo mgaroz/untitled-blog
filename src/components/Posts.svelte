@@ -12,3 +12,13 @@
     </ul>
   </header>
 </div>
+
+<style>
+  ul {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  }
+  li {
+    border-bottom: 2px solid black;
+    transform: translateY(2px);
+  }
+</style>
