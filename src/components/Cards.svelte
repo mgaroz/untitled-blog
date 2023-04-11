@@ -3,7 +3,7 @@
 </script>
 
 <div id="cards">
-  <div id="cards-grid" class="grid grid-cols-2 gap-10">
+  <div id="cards-grid" class="grid grid-cols-2 gap-10 mb-14">
     {#each response as { cover_image, url, title, tag_list, description, user }}
       <article class="flex flex-col">
         <div class="relative">
@@ -55,7 +55,9 @@
       </article>
     {/each}
   </div>
-  <div class="text-center">
-    <button>Load More</button>
+  <div class="text-center mb-20">
+    <button class="rounded-full bg-blue-950 text-white py-3 px-8"
+      ><span class="font-semibold font-lg">Load More</span></button
+    >
   </div>
 </div>

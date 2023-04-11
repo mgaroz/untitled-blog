@@ -12,7 +12,7 @@
           class="rounded-full py-3 px-4 border-r-0 border border-gray-400 rounded-e-none w-[63%] focus:outline-transparent focus:ring-transparent focus:border-transparent"
         />
         <button
-          class="bg-black text-white rounded-full py-3 px-8 -translate-x-8 border border-gray-400 border-l-0"
+          class="bg-blue-950 text-white rounded-full py-3 px-8 -translate-x-8 border border-gray-400 border-l-0"
           type="submit"><span class="font-bold">Subscribe</span></button
         >
       </form>

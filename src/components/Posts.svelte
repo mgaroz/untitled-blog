@@ -1,6 +1,6 @@
-<div id="all-posts">
+<div id="all-posts" class="mb-20">
   <header>
-    <ul class="flex gap-8">
+    <ul class="flex gap-8 font-semibold text-lg">
       <li>View all</li>
       <li>Design</li>
       <li>Product</li>
